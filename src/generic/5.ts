@@ -8,4 +8,6 @@ interface KeyValuePair {
   value;
 }
 
+type KeyValuePair = keyof KeyValuePair;
+
 export {};
